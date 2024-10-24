@@ -22,3 +22,10 @@
 (write-line "-------------")
 (prog ((x '(1 2 3))) (format t "x=~a~%" x)) ;; ~a: array
 (let ((x '(1 2 3))) (format t "x=~a~%" x)) 
+
+(write-line "-------------")
+(let ((x 13) (y 7))
+ (setq z (logand x y))
+ (format t "z=~d~%" z))
+
+;(write y)
